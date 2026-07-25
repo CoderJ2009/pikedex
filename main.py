@@ -1,3 +1,4 @@
+#Created by CoderJ2009. This software is intended to run on a Raspberry Pi 3 running Raspi OS Lite 32 bits.
 import pygame
 import random
 from gpiozero import Button,PWMLED,LED
@@ -14,7 +15,7 @@ from luma.core.interface.serial import i2c
 from luma.oled.device import ssd1306  
 from luma.core.render import canvas
 from google import genai
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 load_dotenv()
 #========DECLARACIONES===========
 pygame.mixer.init(buffer=4096)
