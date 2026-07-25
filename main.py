@@ -15,7 +15,6 @@ from luma.oled.device import ssd1306
 from luma.core.render import canvas
 from google import genai
 from dotenv import load_dotenv
-import os
 load_dotenv()
 #========DECLARACIONES===========
 pygame.mixer.init(buffer=4096)
